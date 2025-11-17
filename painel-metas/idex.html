@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Painel de Metas Diárias</h1>
+    </header>
+    <main>
+        <section>
+            <form id="formulario">
+                <input type="text" id="titulo" placeholder="Qual é a sua meta">
+                <textarea id="descricao" placeholder="Descrição da meta"></textarea>
+                <select id="prioridade">
+                    <option value="Baixa">baixa</option>
+                    <option value="Média">média</option>
+                    <option value="Alta">alta</option>
+                </select>
+                <input id="data" type="date" placeholder="Escolha sua data">
+                <button>Adicionar Meta</button>
+            </form>
+            <div class="erro"></div>
+        </section>
+        <section id="lista">
+            <ul id="lista-metas"></ul>
+        </section>
+    </main>
+    <footer> &copy; Henrique B. Ribeiro | 14/11/2025 </footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
