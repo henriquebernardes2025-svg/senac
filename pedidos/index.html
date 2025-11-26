@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Calculadora de Refeições</h1>
+    </header>
+    <main>
+        <section>
+            <form>
+                <select>
+                    <option value="selecione">selecione</option>
+                    <option value="salmao">salmão</option>
+                    <option value="lagosta">lagosta</option>
+                    <option value="carne-wagyu">carne wagyu</option>
+                    <option value="caviar">caviar</option>
+                    <option value="risoto-de-camarao">risoto de camarão</option>
+                </select>
+                <input type="number" min="1" max="9" placeholder="quatidades" >
+                <button>Adicionar ao pedido</button>
+            </form>
+            <div class="erro"></div>
+        </section>
+        <section id="pedidos">
+            <ul id="lista-pedidos"></ul>
+        </section>
+    </main>
+    <footer> &copy; Henrique B. Ribeiro | 24/11/2025 </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
