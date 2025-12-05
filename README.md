@@ -31,14 +31,3 @@ Seleciona aleatoriamente uma dica.
 
 Exibe o texto dentro do elemento <p id="estudos">.
 
-#▶️ Como executar o projeto
-
-Baixe ou clone este repositório:
-
-git clone https://github.com/seu-usuario/seu-repositorio.git
-
-
-Abra o arquivo index.html no navegador.
-
-Clique no botão para gerar dicas.
-
